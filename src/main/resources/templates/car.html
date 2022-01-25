@@ -1,0 +1,22 @@
+<span th:replace="fragments/header.html" xmlns:th="http://www.w3.org/1999/xhtml" />
+
+<main>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img th:src="${car.image}" th:alt="${car.brand}" class="car__img" />
+            </div>
+            <div class="col-lg-6">
+                <h1 th:text="${car.brand} + ${car.model}"></h1>
+                <div class="car__info"><span class="car__info-title">Marca</span> <p class="car__text" th:text="${car.brand}"></p></div>
+                <div class="car__info"><span class="car__info-title">Modelo</span> <p class="car__text" th:text="${car.model}"></p></div>
+                <div class="car__info"><span class="car__info-title">Kilómetros</span> <p class="car__text" th:text="${car.kilometers}"></p></div>
+                <div class="car__info"><span class="car__info-title">Color</span> <p class="car__text" th:text="${car.color}"></p></div>
+                <div class="car__info"><span class="car__info-title">Fecha de fabricación:</span> <p class="car__text" th:text="${car.manufacturingDate}"></p></div>
+                <a th:href="@{'/'}" class="btn mt-4">Solicitar más información</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<span th:replace="fragments/footer.html" xmlns:th="http://www.w3.org/1999/xhtml" />

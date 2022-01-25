@@ -1,0 +1,185 @@
+/*****************
+* GENERAL STYLES *
+*****************/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Reem Kufi', 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin: 0.8em 0;
+}
+
+body, p, span {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+strong {
+    font-weight: 700;
+}
+
+a, a:hover {
+    transition: 0.4s ease-in;
+}
+
+a {
+    text-decoration: none;
+    color: #a1d4a1;
+}
+
+a:hover {
+    color: #c5c5c;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #5c5c5c;
+    color: #fff;
+}
+
+/********
+* HEADER *
+********/
+
+.header {
+    padding: 2rem;
+    background-color: #000;
+}
+
+.nav__link {
+    font-family: 'Reem Kufi', 'Arial', sans-serif;
+    padding: 0 0.5rem!important;
+    color: #fff;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.4s ease-in;
+    font-size: 1.2em;
+    margin-top: 0.6em;
+}
+
+.btn, .btn:hover {
+    transition: 0.4s ease-in;
+}
+
+.btn__sign-up {
+    background-color: #fff;
+    color: #a1d4a1;
+}
+
+.dropdown-toggle::after {
+    color: #fff;
+}
+
+
+/********
+* HERO *
+********/
+
+.hero {
+    background-image: url('/images/car.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+}
+
+.hero__content {
+    background-color: #fff;
+    padding: 2em 1em;
+}
+
+.highlight {
+    padding: 1em;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+}
+
+.hero__title {
+    margin: 0.8em 0 0.4em 0;
+}
+
+
+/********
+* INTRO *
+********/
+
+.intro {
+    margin: 4em 0 2em 0;
+}
+
+.intro__title {
+    color: #a1d4a1;
+    margin-bottom: 0.5em;
+}
+
+/**********
+* CATALOG *
+**********/
+
+.catalog {
+    margin: 2em 0 4em 0;
+}
+
+.car__img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.car__title {
+    color: #000;
+}
+
+.car__info-title {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8em;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+}
+
+.car__info-title, .car__text {
+    display: inline-block;
+}
+
+.card {
+    border-radius: 0;
+}
+
+/*********
+* FOOTER *
+*********/
+
+.footer {
+    background-color: #000;
+}
+
+.footer a {
+    display: block;
+    color: #fff;
+}
+
+
+/*********
+* TRUMPS *
+*********/
+
+.align-center {
+    text-align: center;
+}
